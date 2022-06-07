@@ -1,7 +1,7 @@
-<img src="/img/sample.png" height="60" width="60" >
-
 # ThesisDotTex
 Thesis.tex is simply a template for those enthusiastic PhD candidates eager to finish up their Doctorates with a beautiful thesis in Latex! 🎓📑☕
+
+<img src="/img/sample.png" width="650" >
 
 ## Credits
 Major credits to (ex) PhD candidates (and thus doctors by now): dr. Bart Besselink, dr. Benjamin Biemond, and dr. Mark Rijnen for their contribution to the template! 99.9% of the credits should go to these guys, I'm merely the guy who decided to add in some new features and put the thing on git.
