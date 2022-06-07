@@ -1,5 +1,5 @@
 # ThesisDotTex
-Thesis.tex is simply a template for those enthusiastic PhD candidates eager to finish up their Doctorates with a beautiful thesis in Latex! 🎓📑☕
+Thesis.tex is only a template for those keen PhD candidates who want to conclude their degrees with a beautiful Latex thesis! 🎓📑☕
 
 <img src="/img/sample.png" width="650" >
 
