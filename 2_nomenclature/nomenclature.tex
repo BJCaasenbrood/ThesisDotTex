@@ -1,0 +1,75 @@
+\newenvironment{Nomen}
+    {\vspace*{-3mm}\begin{center}
+    \begin{longtable}{p{.1\textwidth} p{.83\textwidth}}
+    }
+    {
+    \end{longtable}
+    \end{center}\vspace*{-1.2cm}
+    }
+\newcommand{\AddSymbol}[2]{#1 & #2 \\}
+
+
+
+
+%*********************************************************************************%
+\chapter*{Nomenclature}
+\addcontentsline{toc}{chapter}{Nomenclature}
+\markboth{Nomenclature}{Nomenclature}
+
+%*********************************************************************************%
+
+\section*{Greek symbols}
+
+\begin{Nomen}
+\AddSymbol{$\alpha$}{What $\alpha$ is}
+\AddSymbol{$\beta$}{What $\beta$ is}
+\AddSymbol{$\gamma$}{What $\gamma$ is}
+\AddSymbol{$\delta$}{What $\delta$ is}
+\end{Nomen}
+
+
+%*********************************************************************************%
+\section*{Roman symbols}
+
+\begin{Nomen}
+\AddSymbol{$a$}{Description of $a$}
+\AddSymbol{$b$}{Description of $b$}
+\AddSymbol{$C$}{Description of $C$}
+\AddSymbol{$D_a$}{Description of $D_a$}
+\end{Nomen}
+
+
+%*********************************************************************************%
+\section*{Sub- and superscripts}
+
+\begin{Nomen}
+\AddSymbol{$\dot{(\cdot)}$}{First time derivative}
+\AddSymbol{$\ddot{(\cdot)}$}{Second time derivative}
+\AddSymbol{$\hat{(\cdot)}$}{Explain the reader what this means}
+\AddSymbol{$(\cdot)_0$}{Explain the reader what this means}
+\end{Nomen}
+
+
+%*********************************************************************************%
+\section*{Acronyms}
+
+\begin{Nomen}
+\AddSymbol{CoM}{Center of mass}
+\AddSymbol{CoR}{Coefficient of restitution}
+\end{Nomen}
+
+
+%*********************************************************************************%
+%\newpage
+\section*{Operators and letter-like symbols}
+
+\begin{Nomen}
+\AddSymbol{$\emptyset$}{Empty set}
+\AddSymbol{$\partial$}{Boundary of a set}
+\AddSymbol{$\interior$}{Interior of a set}
+\AddSymbol{$\sup_t$}{Supremum over continuous time $t$}
+\AddSymbol{$\|\cdot\|_\maT$}{Mean absolute norm}
+\AddSymbol{$\|\cdot\|_\rmsT$}{Root-mean-square norm}
+\end{Nomen}
+
+%\thispagestyle{empty}

@@ -1,0 +1,36 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Summary}{v}{chapter*.1}%
+\contentsline {chapter}{Samenvatting}{vii}{chapter*.2}%
+\contentsline {chapter}{Societal summary}{ix}{chapter*.3}%
+\contentsline {chapter}{Nomenclature}{xiii}{chapter*.5}%
+\contentsline {part}{I\hspace {1em}Background}{1}{part.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Name of first section}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Name of second section}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Name of subsection}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Name of second subsection}{4}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Problem statement}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Research challenges and contributions}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Outline of the thesis}{8}{section.1.5}%
+\contentsline {part}{II\hspace {1em}Second chapter}{11}{part.2}%
+\contentsline {chapter}{\numberline {3}Title of your chapter here}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Section header}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Conclusions and discussion}{20}{section.3.3}%
+\contentsline {part}{III\hspace {1em}Third part}{17}{part.3}%
+\contentsline {chapter}{\numberline {3}Title of your chapter here}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Section header}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Conclusions and discussion}{20}{section.3.3}%
+\contentsline {part}{IV\hspace {1em}Closing}{23}{part.4}%
+\contentsline {chapter}{\numberline {4}Conclusions and recommendations}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusions}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Recommendations}{26}{section.4.2}%
+\contentsline {part}{V\hspace {1em}Appendices}{29}{part.5}%
+\contentsline {chapter}{\numberline {A}Appendix name}{31}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Section header}{31}{section.A.1}%
+\contentsline {chapter}{Bibliography}{33}{section*.9}%
+\vspace \bigskipamount 
+\contentsline {chapter}{Acknowledgements}{35}{appendix*.11}%
+\contentsline {chapter}{List of publications}{37}{appendix*.12}%
+\contentsline {chapter}{Curriculum Vitae}{39}{appendix*.13}%
