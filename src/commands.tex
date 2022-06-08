@@ -1,6 +1,7 @@
 %!TEX root = ../thesis.tex
+
+% Texts or
 \renewcommand{\emph}[1]{'\textit{#1}'}
-%\renewcommand{\textapprox}{\raisebox{0.5ex}{\texttildelow}}
 \newcommand{\sorotoki}{\textup{\texttt{SOROTOKI}} }
 \newcommand{\matlab}{\textup{\texttt{MATLAB}} }
 \newcommand{\data}[1]{(\raisebox{-2.7pt}{\textcolor{#1}{\,\Huge{\textbf{-}}}})}
@@ -25,7 +26,7 @@
 \newcommand{\pwr}[1]{\cdot10^{\textrm{#1}}}
 
 % Symbols and annotations
-\newcommand{\fB}{\boldsymbol{f}}
+%\newcommand{\fB}{\boldsymbol{f}}
 \newcommand{\maT}{\text{ma}}
 \newcommand{\qR}{\mathrm{q}}
 \newcommand{\RBB}{\mathbb{R}}
@@ -46,11 +47,13 @@
                         \fill[top color=MRblue!60!black!80,bottom color=MRblue!10] (#1,#2) circle (0.7*#3);
                         \fill[color=MRblue!30] (#1,#2) circle (0.7*#3-\lw);
                         \fill[color=black] (#1,#2) circle (0.1*#3);}
+
 \newcommand{\CoM}[3]{\filldraw[inner color=white,outer color=black!7!white,draw=black,line width=\lw] (#1,#2) circle (#3+0.5*\lw);
                      \begin{scope}[xshift=#1,yshift=#2]
                         \clip(-#3,0) -- (0,0) -- (0,#3) -- (#3,#3) -- (#3,0) -- (0,0) -- (0,-#3) -- (-#3,-#3) -- cycle;
                         \fill[inner color=black!50!white,outer color=black] (0,0) circle (#3);
                      \end{scope}}
+
 \definecolor{MRdarkblue}{RGB}{16,9,88}      % Define a set of colors to be used throughout thesis
 \definecolor{MRred}{RGB}{152,0,0}
 \definecolor{MRgreen}{RGB}{0,146,69}
