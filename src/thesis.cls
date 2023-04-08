@@ -94,7 +94,7 @@
 \setlength{\thumbtopmargin}{1.3cm}
 \else
 \setlength{\thumbsep}{4mm}
-\setlength{\thumbheight}{1.586cm}
+\setlength{\thumbheight}{1.467cm}
 \setlength{\thumbtopmargin}{0.9cm}
 \fi
 \newcommand{\thumbeven}[1]{

@@ -34,7 +34,7 @@
 \newcommand{\subtitle}{with an awesome subtitle}
 \newcommand{\isbn}{123-45-678-9012-3}     % 123boldmath-45-678-9012-3
 \newcommand{\printer}{Name of printer || www.printerswebsite.nl}
-\newcommand{\rector}{prof. dr. REctor}
+\newcommand{\rector}{prof. dr. Rector}
 % other relevant meta data about the thesis can be found in preface.tex
 
 \makeatletter % generates all the \author stuff
@@ -106,17 +106,19 @@
 \include{7_publications/publications}
 \include{8_cv/cv}
 
+%%%% BACK **********************************************************************
 %\newpage {~}
 \thispagestyle{empty}
 
-\ifprint{}
+% Adds your thesis' back cover if the option 'print' is NOT used. 
+% Printing companies require the thesis cover to be supplied separately and in a different format
+% and require an even number of pages (because of double sided printing).
+\ifprint{\cleardoublepage}
 \else
-\newpage {~}
-\thispagestyle{empty}
+% \newpage {~}
+% \thispagestyle{empty}
+\includepdf[pages=-]{img/thesis_back.pdf}
 \fi
-
-%%%% BACK **********************************************************************
-\cover{thesis_back.pdf}    % Adds your thesis' back cover if the option 'print' is NOT used. Printing companies require the thesis cover to be supplied separately and in a different format. Definition of \cover{} is given in commands.tex.
 
 \end{document}
 %%%% THAT's ALL FOLKS **********************************************************
